@@ -7,8 +7,6 @@ function Error(){
             <div className="page-continer">
                 <h1>Not Found 404</h1>  
             </div>
-
-            
         </>
     )
 }

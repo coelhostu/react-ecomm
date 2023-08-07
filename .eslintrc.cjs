@@ -16,5 +16,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-  },
+		'semi': ['error', 'never'],
+		'quotes': ['error', 'single'],
+		'ident': ['error', '2'],
+	},
 }

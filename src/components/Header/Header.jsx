@@ -8,10 +8,10 @@ function Header () {
         <header className="header-wrapper">
             <div className="container">
                 <div className="header-logo">
-                    <h1>Logo</h1>  
+                    <h1>Logo</h1>
                 </div>
-            
-                <div className="header-search">  
+
+                <div className="header-search">
                     <input type="text" placeholder="Pesquisar" />
                     <button type="submit">Pesquisar</button>
                 </div>
@@ -29,4 +29,4 @@ function Header () {
 
 }
 
-export default Header; 	
+export default Header;
