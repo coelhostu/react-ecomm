@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom"
+import { Header } from "../../components";
+import "../../styles/Page.css";
 
 function Home() {
     return (
-        <div>
+        <>
+            <Header />
+            <div className="page-continer">
             <h1>Home</h1>
             <nav>
                 <ul>
@@ -14,7 +18,8 @@ function Home() {
                     </li>
                 </ul>   
             </nav>
-        </div>
+            </div>
+        </>
     )
 }
 

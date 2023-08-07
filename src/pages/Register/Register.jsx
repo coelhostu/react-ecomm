@@ -1,8 +1,13 @@
+import "../../styles/Page.css";
+
 function Register() {
     return (
-        <div>
-            <h1>Register</h1>
-        </div>
+        <>
+            <Header />
+                <div className="page-continer">
+                    <h1>Register</h1>
+                </div>
+        </>
     )
 }
 

@@ -1,0 +1,29 @@
+.search-wrapper {
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+}
+
+.search-input {
+    height: 40px;
+    border:none;
+    padding: 0px 15px;
+    outline: none;
+    flex: 1;
+}
+
+.search-button {
+    cursor: pointer;
+    background-color: white;
+    color: #0286FF;
+    border:none;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
