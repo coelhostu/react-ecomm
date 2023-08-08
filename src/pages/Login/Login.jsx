@@ -6,7 +6,7 @@ import "../../styles/Page.css";
 
 function Login() {
     const navigate = useNavigate();
- 
+
     const handleSubmit = (event) => {
         event.preventDefault();
         navigate("/");

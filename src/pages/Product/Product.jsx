@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom"
 import "../../styles/Page.css";
+import { Header } from "../../components";
 
 
 function Product () {
     const {id} = useParams()
-    
+
    // console.log(parameters);
     return (
 

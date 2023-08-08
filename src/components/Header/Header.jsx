@@ -1,9 +1,18 @@
 import "./Header.css";
-import "../..styles/Common.css";
+import "../../styles/Common.css";
 import "../Search/Search"
 import { BsPersonCircle, BsFillBagFill } from "react-icons/bs";
+import { useState } from 'react';
+import Bag from '../Bag';
 
 function Header () {
+	const [bagOpen, setBagOpen] = useState(false);
+
+		const handleBagClick = () => {
+			//console.log('handleBagClick', bagOpen);
+			setBagOpen(!bagOpen);
+		};
+
     return (
         <header className="header-wrapper">
             <div className="container">
@@ -19,13 +28,14 @@ function Header () {
                     <button type="button">
                         <BsPersonCircle collor="#0286FF" size="20"/>
                     </button>
-                    <button type="button">
+                    <button type="button" className="header-icon" onClick={handleBagClick} >
                         <BsFillBagFill collor="#0286FF" size="20"/>
                     </button>
                 </div>
             </div>
+						<Bag />
         </header>
-    );
+    )
 
 }
 
